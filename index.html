@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume</title>
+    <link rel="stylesheet" href="Resume_CSS.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Playwrite+PE:wght@100..400&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Zen+Kaku+Gothic+New&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&display=swap");
+    </style>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="container_Header">
+      <div class="logo">
+        <div class="circle-triangle">
+          <div class="circle1"></div>
+          <div class="circle1"></div>
+          <div class="circle1"></div>
+        </div>
+      </div>
+      <div class="menu_icon">
+        <div class="menu_lines"></div>
+      </div>
+      <nav class="navbar">
+        <ul class="ul_primary">
+          <li><a href="#">理念</a></li>
+          <li><a href="#">Pages</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Project</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Banner含動畫 -->
+
+    <div id="banner" class="banner_bg">
+      <div class="container">
+        <div class="banner_intro">
+          <h3 class="desc">
+            Create <br />Useful And Beautiful Products <br />Contribute To The
+            World.
+          </h3>
+          <h4 class="desc2">
+            「有用性」と「美しさ」を兼ね備えた課題解決を提供するデザイン会社です。
+          </h4>
+        </div>
+        <div class="moving-text-container">
+          <div class="moving-text">ARCHITECTURE</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- About -->
+    <!-- About -->
+    <section id="About" class="about-section">
+      <div class="ab_container">
+        <div class="text-animation">
+          <p class="text-slide-left">Perfection.</p>
+          <p class="text-slide-right">and Innovation.</p>
+        </div>
+        <hr />
+        <div class="ab_intro">
+          <h3 style="font-weight: 500">Personal&nbsp;</h3>
+          <h3 style="font-weight: 200">Resume.</h3>
+        </div>
+        <div class="ab_intro2">
+          <!-- 左邊個人照 -->
+          <div class="ab_intro2_left"></div>
+          <!-- 右邊簡歷 -->
+          <div class="ab_intro2_right">
+            <div class="timeline">
+              <div class="timeline-node" data-year="2016"></div>
+              <div class="timeline-node" data-year="2018"></div>
+              <div class="timeline-node" data-year="2020"></div>
+              <div class="timeline-node" data-year="2023"></div>
+            </div>
+            <div class="timeline-content">
+              <div class="card left" id="card-1">
+                <h3>Education</h3>
+                <p>台湾大学土木工学科</p>
+              </div>
+              <div class="card right" id="card-2">
+                <h3>Work Experience</h3>
+                <p>台湾大学研究員</p>
+              </div>
+              <div class="card left" id="card-3">
+                <h3>Work Experience</h3>
+                <p>台湾内政部研究員</p>
+              </div>
+              <div class="card right" id="card-4">
+                <h3>Education</h3>
+                <p>東京工業大学建築学科</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- skill bar -->
+      <!-- <div class="skill_background">
+        <div class="skills">
+          <h3 class="skills-btn">
+            SKILL<span style="font-size: 30px; font-weight: 200">s.</span>
+          </h3>
+          <div class="skills-container hidden">
+            <ul class="skills-list">
+              <li>
+                <span class="skill-name">HTML</span>
+                <span class="skill-bar">
+                  <span class="skill-level skill-html">90%</span>
+                </span>
+              </li>
+              <li>
+                <span class="skill-name">CSS</span>
+                <span class="skill-bar">
+                  <span class="skill-level skill-css">80%</span>
+                </span>
+              </li>
+              <li>
+                <span class="skill-name">JavaScript</span>
+                <span class="skill-bar">
+                  <span class="skill-level skill-js">70%</span>
+                </span>
+              </li>
+              <li>
+                <span class="skill-name">PHP</span>
+                <span class="skill-bar">
+                  <span class="skill-level skill-php">60%</span>
+                </span>
+              </li>
+              <li>
+                <span class="skill-name">MySQL</span>
+                <span class="skill-bar">
+                  <span class="skill-level skill-mysql">65%</span>
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div> -->
+    </section>
+    <!-- skill section end -->
+
+    <!-- Photo Section -->
+    <section class="photowall">
+      <div class="photo_section">
+        <div class="containerPP"><h2>撮影実績一覧</h2></div>
+        <hr />
+        <div class="photo-slider-wrapper">
+          <button class="scroll-btn left-btn">Prev</button>
+          <div class="containerP">
+            <div class="itemP">
+              <div class="side">
+                <img
+                  src="img/img-01.JPG"
+                  alt="Photo 1"
+                />
+              </div>
+              <div class="side back">
+                <div class="back_contact">
+                  <h2>Project 1.</h2>
+                  <p>
+                    写真は、瞬間を永遠にする芸術です。日常の中にある美しさや感情を再発見し、普段見過ごしがちな景色にも新たな命を吹き込む手段となります。光と影のコントラストや表情の一瞬に込められた感動を心に刻むことができます。
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="itemP">
+              <img
+                src="img/img-02.JPG"
+                alt="Photo 2"
+              />
+            </div>
+            <div class="itemP">
+              <img
+                src="img/img-03.jpg"
+                alt="Photo 3"
+              />
+            </div>
+            <div class="itemP">
+              <div class="side">
+                <img
+                  src="img/img-06.JPG"
+                  alt="Photo 4"
+                />
+              </div>
+              <div class="side back">
+                <div class="back_contact">
+                  <h2>Project 4.</h2>
+                  <p>
+                    カメラのレンズ越しに、平凡な日常や特別な瞬間を新たな視点で切り取り、心に響く物語を生み出します。光と影、色彩の調和によって、世界の美しさを再発見できます。
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="itemP">
+              <img src="img/img-05.jpg" alt="Photo 5" />
+            </div>
+            <div class="itemP">
+              <img
+                src="img/img-04.JPG"
+                alt="Photo 6"
+              />
+            </div>
+            <div class="itemP">
+              <div class="side">
+                <img
+                  src="img/img-07.JPG"
+                  alt="Photo 7"
+                />
+              </div>
+              <div class="side back">
+                <div class="back_contact">
+                  <h2>Project 7.</h2>
+                  <p>
+                    写真は、感情や物語を瞬間に封じ込める芸術です。カメラは、見過ごされがちな日常の美しさを新たな視点で切り取り、心に残る特別な瞬間を共有する手段です。一瞬の表情や風景が、長く語り継がれる記憶となります。
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="itemP">
+              <img src="img/img-08.jpg" alt="Photo 8" />
+            </div>
+            <div class="itemP">
+              <img src="img/img-09.JPG" alt="Photo 9" />
+            </div>
+            <div class="itemP">
+              <img src="img/img-10.jpg" alt="Photo 10" />
+            </div>
+            <div class="itemP">
+              <img src="img/img-11.jpg" alt="Photo 11" />
+            </div>
+            <div class="itemP">
+              <div class="side">
+                <img
+                  src="img/img-12.jpg"
+                  alt="Photo 12"
+                />
+              </div>
+              <div class="side back">
+                <div class="back_contact">
+                  <h2>Project 12.</h2>
+                  <p>
+                    写真は感情や瞬間を記録する力を持つ芸術であり、被写体に込められたストーリーや美を引き出す手段でもあります。カメラを通じて見える世界は、普段見過ごされがちな美しさや感動を新たに発見する機会を与えてくれます。
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="itemP">
+              <img
+                src="img/img-15.jpg"
+                alt="Photo 13"
+              />
+            </div>
+            <div class="itemP">
+              <img src="img/img-14.jpg" alt="Photo 14" />
+            </div>
+            <div class="itemP">
+              <div class="side">
+                <img src="img/img-13.jpg" alt="Photo 15" />
+              </div>
+              <div class="side back15">
+                <div class="back_contact">
+                  <h2>Project 15.</h2>
+                  <p>
+                    カメラを通じて見える世界は、普段見過ごされがちな美しさや感動を新たに発見する機会を与えてくれます。
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="itemP">
+              <img
+                src="img/img-16.jpg"
+                alt="Photo 16"
+              />
+            </div>
+            <div class="itemP">
+              <img
+                src="img/img-17.jpg"
+                alt="Photo 17"
+              />
+            </div>
+            <div class="itemP">
+              <div class="side">
+                <img
+                  src="img/img-18.JPG"
+                  alt="Photo 18"
+                />
+              </div>
+              <div class="side back">
+                <div class="back_contact">
+                  <h2>Project 18.</h2>
+                  <p>
+                    日常の中に隠れる物語を引き出し、新しい視点で世界を見せてくれます。光と影の交錯や色彩の変化を通して、感動が深く刻まれる瞬間を体験できます。
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="scroll-btn right-btn">Next</button>
+        </div>
+      </div>
+    </section>
+    <!-- photo end -->
+
+    <!-- 聯絡我們 -->
+    <section id="contact">
+      <div class="contact_head">
+        <h2>お問い合わせ</h2>
+        <p>
+          撮影成果に関する資料をご希望の場合は、以下のフォームよりご連絡ください。
+          <br />※本ページはサンプルサイトです。データは送信されません。
+        </p>
+      </div>
+      <hr />
+      <div class="containerC">
+        <div class="leftbox">
+          <!-- <h2>Contact Us</h2> -->
+          <div class="C_img">
+            <img
+              src="img/img-contact.jpg"
+              alt=""
+            />
+          </div>
+
+          <div class="ul">
+            <p style="font-weight: 300">こちらの内容をダウンロード頂けます</p>
+            <br />
+            <ul class="info">
+              <li>1.追加の情報</li>
+              <li>2.費用の目安</li>
+              <li>3.詳細な履歴書</li>
+            </ul>
+          </div>
+        </div>
+        <div class="rightbox">
+          <form action="" id="contact-form">
+            <div class="form-group">
+              <label for="name">お名前</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="例）Saki CHU"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">メールアドレス</label>
+              <input
+                type="email"
+                id="email"
+                name="Email"
+                placeholder="例）○○○@gmail.com"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="phone">電話番号</label>
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="例） 09○○-○○○○○○"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="message">備考</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="10"
+                required
+              ></textarea>
+            </div>
+            <div class="form-group">
+              <button type="submit" class="btn-submit">
+                <span>送信內容を內容する</span>
+                <div class="circle">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </div>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-section about">
+          <h4>About This Site / 本網站について</h4>
+          <p>
+            本網站內所有照片及內容皆由 <strong>Ting-Chen Chu</strong> 拍攝及製作，未經授權，禁止轉載或使用。<br>
+             All photos and content on this site are created by <strong>Ting-Chen Chu</strong>. Unauthorized use is prohibited. Please contact me for permission to use any material.<br>
+            当サイト内の写真およびコンテンツはすべて <strong>Ting-Chen Chu</strong> によるものです。無断転載・使用を禁じます。使用希望の場合はご連絡ください。
+            <br>
+            <br>
+            <br>本網站為個人學習及作品展示，網站內容僅作為示範用途，無商業意圖。  
+            <br>
+            This website is a personal project for educational purposes. Some design elements were inspired by publicly available resources. Not for commercial use.
+          </p>
+        </div>
+        <div class="footer-section contact">
+          <h4>Contact Information / 連絡先</h4>
+          <ul>
+            <li>Email: <a href="mailto:tingccc93@gmail.com">tingccc93@gmail.com</a></li>
+            <li>GitHub: <a href="https://github.com/SakiiiCHU" target="_blank">SakiiiCHU</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>
+          © 2025 Ting-Chen Chu. All rights reserved. / © 2025 Ting-Chen Chu. 本サイト内のすべてのコンテンツは知的財産権で保護されています。
+        </p>
+      </div>
+    </footer>
+    
+    
+
+    <!-- Javascript Begin-->
+    <script>
+      // Header
+      // menu icon動態
+      document.addEventListener("DOMContentLoaded", function () {
+        const menuIcon = document.querySelector(".menu_icon");
+        const navbar = document.querySelector(".navbar");
+        const menuItems = document.querySelectorAll(".ul_primary li");
+
+        menuIcon.addEventListener("click", function () {
+          menuIcon.classList.toggle("active"); // 切換圖標樣式
+
+          // 手機版下拉顯示
+          if (window.innerWidth <= 480) {
+            navbar.classList.toggle("show"); // 手機版下拉切換
+          } else {
+            // 桌面版依次顯示 li 元素
+            if (!navbar.classList.contains("show")) {
+              navbar.classList.add("show");
+              menuItems.forEach((item, index) => {
+                setTimeout(() => {
+                  item.classList.add("show"); // 顯示每個 li
+                }, index * 100); // 每個 li 間隔 100ms 顯示
+              });
+            } else {
+              navbar.classList.remove("show");
+              menuItems.forEach((item) => {
+                item.classList.remove("show"); // 重置 li 狀態
+              });
+            }
+          }
+        });
+
+        // 確保窗口大小變化時更新導航欄狀態
+        window.addEventListener("resize", function () {
+          if (window.innerWidth > 480) {
+            navbar.classList.remove("show"); // 重置桌面導航欄狀態
+            menuIcon.classList.remove("active"); // 還原圖標
+            menuItems.forEach((item) => {
+              item.classList.remove("show"); // 還原 li 狀態
+            });
+          }
+        });
+      });
+
+      // About
+      document.addEventListener("DOMContentLoaded", function () {
+        const aboutSection = document.querySelector(".about-section");
+        const textLeft = document.querySelector(".text-slide-left");
+        const textRight = document.querySelector(".text-slide-right");
+        let animationTriggered = false; // 標記動畫是否已觸發
+        const triggerOffset = 200; // 提前觸發的偏移量（像素）
+
+        // 禁用滾動事件的函數
+        function preventScroll(e) {
+          e.preventDefault();
+          e.stopPropagation();
+          return false;
+        }
+
+        // 禁用滾動
+        function disableScroll() {
+          document.addEventListener("wheel", preventScroll, { passive: false });
+          document.addEventListener("touchmove", preventScroll, {
+            passive: false,
+          });
+          document.addEventListener("keydown", preventScroll, {
+            passive: false,
+          });
+        }
+
+        // 恢復滾動
+        function enableScroll() {
+          document.removeEventListener("wheel", preventScroll, {
+            passive: false,
+          });
+          document.removeEventListener("touchmove", preventScroll, {
+            passive: false,
+          });
+          document.removeEventListener("keydown", preventScroll, {
+            passive: false,
+          });
+        }
+
+        // 自動滾動到 .about-section 的頂部
+        function scrollToAboutSection() {
+          window.scrollTo({
+            top: aboutSection.offsetTop,
+            behavior: "smooth",
+          });
+        }
+
+        // 監聽滾動事件
+        window.addEventListener("scroll", function () {
+          const aboutSectionTop = aboutSection.getBoundingClientRect().top;
+
+          // 如果 .about-section 接近頂部時觸發動畫
+          if (aboutSectionTop <= triggerOffset && !animationTriggered) {
+            animationTriggered = true; // 標記動畫已觸發
+
+            // 平滑滾動到 .about-section 的頂部
+            scrollToAboutSection();
+
+            // 禁用滾動
+            disableScroll();
+
+            // 觸發字體動畫
+            textLeft.classList.add("show");
+            textRight.classList.add("show");
+
+            // 設置2秒後恢復滾動
+            setTimeout(() => {
+              enableScroll(); // 恢復滾動
+            }, 2000);
+          }
+        });
+      });
+
+      // skill bar
+      document.addEventListener("DOMContentLoaded", () => {
+        const skillsBtn = document.querySelector(".skills-btn");
+        const skillsContainer = document.querySelector(".skills-container");
+        const skillsWrapper = document.querySelector(".skills");
+
+        skillsBtn.addEventListener("click", () => {
+          // 切換大容器的樣式
+          skillsWrapper.classList.toggle("expanded");
+
+          // 切換技能列表顯示
+          skillsContainer.classList.toggle("show");
+
+          // 切換按鈕的樣式
+          skillsBtn.classList.toggle("expanded");
+        });
+      });
+
+      // Photo_Section
+      document.addEventListener("DOMContentLoaded", () => {
+        const containerPElement = document.querySelector(".containerP");
+        const leftBtn = document.querySelector(".left-btn");
+        const rightBtn = document.querySelector(".right-btn");
+
+        // 初始滾動到中間
+        const centerPosition =
+          (containerPElement.scrollWidth - containerPElement.clientWidth) / 2;
+        containerPElement.scrollLeft = centerPosition;
+
+        // 向左滾動事件
+        leftBtn.addEventListener("click", () => {
+          containerPElement.scrollBy({ left: -860, behavior: "smooth" });
+          console.log("scrollLeft triggered");
+        });
+
+        // 向右滾動事件
+        rightBtn.addEventListener("click", () => {
+          containerPElement.scrollBy({ left: 860, behavior: "smooth" });
+          console.log("scrollRight triggered");
+        });
+      });
+    </script>
+    <!-- Javascript End-->
+  </body>
+</html>
